@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(226, 236, 236);
+    font-family: Arial, sans-serif;
+}
+
+.div{
+    width: 800px;
+    
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+
+.home{
+    text-align: center;
+}
+
+.home h2{
+    font-size: 24px;
+}
+
+.home p{
+    font-size: 14px;
+}
+
+
+.mark{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.heading{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+
+.career{
+    margin: 20px;
+}
+
+.career p{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.career ul{
+    padding-top: 10px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+/* tab */
+@media (max-width: 768px){
+    .home h2{
+        font-size: 22px;
+    }
+
+
+    .career{
+        margin: 15px;
+    }
+
+    .career p,
+    .career ul{
+        font-size: 13px;
+    }
+}
+/* mobie */
+@media (max-width: 480px){
+    .home h2{
+        font-size: 20px;
+    }
+
+    .home p{
+        font-size: 13px;
+    }
+
+    
+    .career{
+        margin-left:30px;
+    }
+
+    .career p{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    .career ul{
+        margin-left: 15px;
+        font-size: 13px;
+    }
+}
